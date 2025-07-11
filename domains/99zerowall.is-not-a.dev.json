@@ -1,0 +1,16 @@
+{
+    "description": "Delegated subdomain for self-hosted services via Cloudflare",
+    "domain": "is-not-a.dev",
+    "subdomain": "99zerowall",
+    "owner": {
+        "email": "xseejx-edu@proton.me"
+    },
+    "record": {
+       "NS": [
+            "bill.ns.cloudflare.com",
+            "celine.ns.cloudflare.com"
+        ]
+    },
+
+    "proxied": false
+}
